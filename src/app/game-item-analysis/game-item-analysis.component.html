@@ -1,0 +1,12 @@
+<p><a routerLink="" routerLinkActive="active" ariaCurrentWhenActive="page">Back</a></p>
+
+<h1>Game Item Analysis</h1>
+<app-game-item-form (submitGameItemInfoEvent)="submittedItems($event)"></app-game-item-form>
+
+<div *ngIf="gameItemInfo.length > 0">
+  <app-game-item-appigraph [itemList]="itemList" [avgPriceList]="avgPriceList"></app-game-item-appigraph>
+</div>
+
+<div *ngIf="gameItemInfo.length > 0">
+  <app-game-item-expense-graph [userList]="userList" [expenseList]="expenseList"></app-game-item-expense-graph>
+</div>

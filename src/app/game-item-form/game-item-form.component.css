@@ -1,0 +1,22 @@
+table, th, td {
+  border:1px solid black;
+  width: 175px;
+}
+
+.bottomForm {
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 16px;
+}
+
+#sButton {
+  margin-left: 104px;
+}
+
+#rButton {
+  margin-left: 20px;
+}
+
